@@ -1,0 +1,10 @@
+---
+# tasks file for dumpvars
+
+
+- template:
+    src: dump_variables.j2
+    dest: /tmp/ansible_variables
+- fetch:
+    src: /tmp/ansible_variables
+    dest: "./debugvars/hosts/{{inventory_hostname}}_ansible_variables"

@@ -37,5 +37,6 @@ Author Information
 ------------------
 George Boobyer (iAugur) Blue-Bag Ltd
 
-Taken from the answer at:
+Taken from answer by https://stackoverflow.com/users/2565593/steve-midgley
+to:
 http://stackoverflow.com/questions/18839509/where-can-i-get-a-list-of-ansible-pre-defined-variables

@@ -1,6 +1,6 @@
 Role Name
 =========
-
+[![Build Status](https://travis-ci.org/Blue-Bag/ansible-role-dumpvars.svg?branch=master)](https://travis-ci.org/Blue-Bag/ansible-role-dumpvars)
 Dump the inventory vars
 
 Requirements

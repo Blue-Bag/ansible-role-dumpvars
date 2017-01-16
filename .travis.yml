@@ -45,4 +45,5 @@ script:
  # - 'docker exec --tty "$(cat ${container_id})" env TERM=xterm ansible-playbook /etc/ansible/roles/role_under_test/tests/test.yml'
 
 notifications:
-  # Notify Ansible Galaxy when a role builds successfully.
+  slack:
+    secure: Lt+DDsdKbDGZcEn4HSycVbxg1PjqasP3Nrv+G7tG/6G4EXk7W51zvToloZaIyS8kWjjdtn6iF5Q4yvor5B9pNHCqZ4RKBQFmV29jS3XxEEn03lCpC5aekfYRiJ+9atsZQRmn7X/l9V+/MkfwLG0LHZ4KEZeKieRvkX0E5LL8phO29mTxDdB+qpZiTJ+IpyyuAF/kD6FEkfSR6SFGk8sLzCWZ2m9jCHEfFso/GC067ePLjg6ICmEJYVS6/EFT6ApWpp2MgjV5TUKzwuUFFMiUskX8C4VQ1p2NPP1fOUtMsnYXZASlxrrDejw3v1T1ixVii349PRWfYQZqgSUhAAwyUNKPJVaDX2okLD125fyD7ZELvA2CHiZHwQIIaqxhSk0VVzbDcyXGccseCkZaBqFT64UhrXc165tzPjtbXrJxDAtzSOWDTcTmNRsU7xuMSzJBbjRQ0W/LXUR6Cn7Rq2Yy5QALtvQy1DkV/sHI2kzX0QkxavlFTrF6hWqLBth0fJJ9VcR4oxrYtLiD0B+hZG/6LkpEfb14D++mkjD/ZWRsn/zNwV6ushdck1CJ4C3CiEG5xrVVP8MvlZKns2oqJebBp2v7k7cO0xSR43+lJ5MM7QmzIHtXZmyVxgwFgPm+ZxPIe0oaVF48mqVw69UWZIgFGvDPReetcSxdtmd5zOmtzfg=
